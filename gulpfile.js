@@ -23,6 +23,7 @@ var config = {
     'assets/custom/scss/style.css'
   ],
   jsFiles: [
+    'assets/vendor/jquery/js/jquery-1.10.1.min.js',
     'assets/vendor/bootstrap/js/bootstrap.min.js',
     'assets/vendor/retina/js/retina.min.js',
     'assets/custom/js/script.js'
