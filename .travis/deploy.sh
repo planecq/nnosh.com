@@ -18,7 +18,7 @@ if [ $TRAVIS_BRANCH == "master" ] ; then
     git add .
     git status # debug
     git commit -m "Deploy compressed files"
-    git push -f deploy HEAD:master
+    git push -f deploy HEAD:refs/heads/master
 
 elif [ $TRAVIS_BRANCH == "staging" ] ; then
 
@@ -35,7 +35,7 @@ elif [ $TRAVIS_BRANCH == "staging" ] ; then
     git add .
     git status # debug
     git commit -m "Deploy compressed files"
-    git push -f deploy HEAD:master
+    git push -f deploy HEAD:refs/heads/master
 
 else
 
