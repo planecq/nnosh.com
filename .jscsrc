@@ -1,0 +1,8 @@
+{
+  "preset": "node-style-guide",
+  "maximumLineLength": false,
+  "requireTrailingComma": false,
+  "requireCamelCaseOrUpperCaseIdentifiers": false,
+  "requireCapitalizedComments": false,
+  "requireLineFeedAtFileEnd": true
+}
