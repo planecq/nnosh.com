@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'DINPro';
+    src: url('../fonts/DINPro-Regular.otf');
+}
+
+body {
+    background: url('../../images/sunrise.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: DINPro, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-shadow: none;
+}
+
+.site-wrapper {
+    background-color: rgba(0,0,0,0.1);
+}
+
+.site-wrapper-inner {
+    vertical-align: top;
+    padding-top: 2%;
+}
+
+.cover-heading {
+    margin-bottom: 40px;
+}
+
+.mastfoot {
+    color: rgba(255, 255, 255, .7);
+}

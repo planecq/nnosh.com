@@ -20,6 +20,7 @@ var config = {
   scssFile: 'assets/custom/scss/style.scss',
   cssFiles: [
     'assets/vendor/bootstrap/css/bootstrap.css',
+    'assets/custom/scss/cover.css',
     'assets/custom/scss/style.css'
   ],
   jsFiles: [
